@@ -1,8 +1,8 @@
 // src/pages/ProjectList.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../components/ProjectCard';
-import ProjectForm from '../components/ProjectForm';
+// import ProjectCard from '../components/ProjectCard';
+// import ProjectForm from '../components/ProjectForm';
 import { fetchProjects, createProject } from '../services/projectService';
 
 export default function ProjectList() {
@@ -35,7 +35,7 @@ export default function ProjectList() {
       {showForm && (
         <div className="card mb-4">
           <div className="card-body">
-            <ProjectForm onSubmit={handleCreateProject} onCancel={() => setShowForm(false)} />
+            {/*<ProjectForm onSubmit={handleCreateProject} onCancel={() => setShowForm(false)} />*/}
           </div>
         </div>
       )}
@@ -44,7 +44,7 @@ export default function ProjectList() {
         {projects.map(project => (
           <div className="col-md-6 col-lg-4 mb-4" key={project.project_id}>
             <Link to={`/cost-estimation/${project.project_id}`} style={{ textDecoration: 'none' }}>
-              <ProjectCard project={project} />
+              {/*<ProjectCard project={project} />*/}
             </Link>
           </div>
         ))}

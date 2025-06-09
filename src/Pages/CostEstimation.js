@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Tabs, Tab, Container, Card, Row, Col } from 'react-bootstrap';
-import CocomoForm from '../components/cost/CocomoForm';
+// import CocomoForm from '../components/cost/CocomoForm';
 import FunctionPointForm from '../components/cost/FunctionPointForm';
 import RegressionAnalysisForm from '../components/cost/RegressionAnalysisForm';
 import CostComparisonChart from '../components/cost/CostComparisonChart';
@@ -49,7 +49,7 @@ export default function CostEstimation() {
         <Tab eventKey="cocomo" title="COCOMO模型">
           <Card className="mt-3">
             <Card.Body>
-              <CocomoForm onSubmit={handleCocomoSubmit} />
+              {/*<CocomoForm onSubmit={handleCocomoSubmit} />*/}
             </Card.Body>
           </Card>
         </Tab>
