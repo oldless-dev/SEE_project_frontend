@@ -1,0 +1,30 @@
+.cost-estimation-page {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.custom-tabs .nav-link {
+  font-weight: 500;
+}
+
+.shadow-card {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
