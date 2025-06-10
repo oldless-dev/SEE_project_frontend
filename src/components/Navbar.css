@@ -1,0 +1,49 @@
+.custom-navbar {
+  background-color: #1f2937; /* 深蓝灰，符合商务风格 */
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  flex-wrap: wrap;
+}
+
+.nav-brand {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  padding: 0;
+  margin: 0;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-links a:hover {
+  background-color: #374151;
+  color: #facc15; /* 高亮黄色 */
+}
